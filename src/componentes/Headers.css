@@ -1,0 +1,39 @@
+.header {
+  background-color: #1E1E24;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #F7EBE8;
+}
+
+.header p {
+  margin: 4px 0 0 0;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.menu_header {
+  display: flex;
+  gap: 20px;
+}
+
+.menu_header a {
+  text-decoration: none;
+  color: #F7EBE8;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+  padding-bottom: 4px;
+}
+
+
+.menu_header a:hover {
+  color: #FFA987;
+  border-bottom: 2px solid #E54B4B;
+}
