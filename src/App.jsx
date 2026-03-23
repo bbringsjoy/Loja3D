@@ -1,6 +1,5 @@
-
-import Header from "./componentes/Header";
-import Slidebar from "./componentes/Slidebar";
+import Header from "./layout/Header";
+import Slidebar from "./layout/Slidebar";
 
 function App(){
   return(
