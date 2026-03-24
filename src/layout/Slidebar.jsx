@@ -1,6 +1,6 @@
 import './Slidebar.css';
 
-function Slidebar(){
+export default function Slidebar(){
     return(
         <aside className="slidebar">
             <h2 className="sidebar-titulo">Categorias</h2>
@@ -16,4 +16,3 @@ function Slidebar(){
     )
 }
 
-export default Slidebar;
