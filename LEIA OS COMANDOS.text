@@ -1,0 +1,7 @@
+antes de rodar o projeto executar
+
+install node
+
+depois
+
+npm install tailwindcss @tailwindcss/vite
