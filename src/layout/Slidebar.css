@@ -1,0 +1,9 @@
+.slidebar {
+  background-color: #1E1E24;
+  padding: 25px;
+  width: 230px;
+  min-height: 100vh;
+
+  position: relative;
+  flex-shrink: 0;
+}
