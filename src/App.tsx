@@ -1,18 +1,20 @@
-import { Header, Slidebar } from "./layout";
+import { Header, Slidebar, Footer } from "./layout"; 
 import { ProdutoCard } from "./componentes";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen"> 
       <Header/>
 
-      <div className="flex min-h-screen">
+      <div className="flex flex-1">
         <Slidebar />
 
-        <div className="flex-1 p-4">
+        <main className="flex-1 p-8">
           <ProdutoCard />
-        </div>
+        </main>
       </div>
+
+      <Footer /> 
     </div>
   );
 }

@@ -10,12 +10,9 @@ export default function Header(){
       </div>
       <nav className="menu_header">
           <Link to="/">Home</Link>
-          <Link to="/contato">Contato</Link>
-          <Link to="/quem-somos">Quem Somos</Link>
           <Link to="/login">Login</Link>
           <Link to="/carrinho">Carrinho</Link>
       </nav>
     </header>
   )
 }
-
